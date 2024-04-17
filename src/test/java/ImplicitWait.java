@@ -25,8 +25,8 @@ public class ImplicitWait {
         WebElement element = webDriver.findElement(By.xpath("//textarea[@title='Search']"));
         element.sendKeys("Ultralessons");
         Thread.sleep(5000);
-        element.clear();
-//        element.submit();
+//        element.clear();
+        element.submit();
         Thread.sleep(5000);
     }
 
