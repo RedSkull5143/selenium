@@ -1,0 +1,6 @@
+Selenium :
+WebDriverManager is an open-source Java library that carries out the management (i.e., download, setup, and maintenance) of the drivers required by Selenium WebDriver (e.g., chromedriver, geckodriver, msedgedriver, etc.) in a fully automated manner.
+
+WebDriverManager.chromedriver().setup(); automatically downloads the appropriate Chrome driver that matches with your Chrome browser version and sets the system property.
+
+use driver.close() when you want to close the current tab or window but have more actions to perform in other tabs or windows. use driver.quit() at the end of your test when you are finished with the WebDriver and want to close all tabs or windows.
