@@ -23,11 +23,11 @@ public class RadioButton {
         webDriver.get("https://demoqa.com/radio-button");
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement yesBtn= webDriver.findElement(By.id("yesRadio"));
+        WebElement yesBtn= webDriver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[2]/label"));
         yesBtn.click();
         Thread.sleep(2000);
 
-        WebElement impressiveBtn= webDriver.findElement(By.id("impressiveRadio"));
+        WebElement impressiveBtn= webDriver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/label"));
         Thread.sleep(2000);
     }
 
